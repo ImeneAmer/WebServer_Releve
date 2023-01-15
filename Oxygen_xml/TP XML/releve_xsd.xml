@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/HP/Desktop/Mes%20Docs/TP%20XML%20COURS%20ENSET/Devoir%20XML/releve.xsd" rib="0111122223333444455556666">
+    <dateReleve>2021-11-10</dateReleve>
+    <solde>14500</solde>
+    <operations dateDebut="2021-01-01" dateFin="2021-01-30">
+        <operation type="CREDIT" date="2021-01-01" montant="9000" Description="Vers Espèce"/>
+        <operation type="DEBIT" date="2021-01-11" montant="3400" Description="Chèque Guichet"/>
+       <operation type="DEBIT" date="2021-01-15" montant="120" Description="Prélèvement Assurance"/> 
+        <operation type="CREDIT" date="2021-01-25" montant="70000" Description="Virement.."/>
+    </operations>
+</releve>
